@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <Navigation />
       <Routes>
-        <Route path="/" exact component={() => <Home />} />
-        <Route path="/:id" exact component={() => <Singlepost />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/:id" element={<Singlepost />} />
       </Routes>
     </div>
   )
